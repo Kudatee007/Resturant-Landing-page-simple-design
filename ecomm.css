@@ -1,0 +1,214 @@
+form{
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+}
+form>img{
+    width: 5%;
+    height: 10%;
+}
+form>button{
+    width: 65%;
+}
+.ard{
+    text-align: center;
+}
+.flexx1{
+    display: flex;
+    justify-content: space-around;
+    margin: 10%;
+    border: 1px solid white;
+    padding: 10%;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px lightblue;
+    border-radius: 120px;
+    height: 2%;
+    
+}
+.flexx1>img{
+    height: 5%;
+    width: 30%;
+    border-radius: 3%;
+}
+.always{
+    padding-top: 8%;
+}
+.always>h3{
+    font-family: fantasy;
+    color: rgb(243, 95, 95);
+}
+.always>h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.always>p{
+    color: gray;
+    margin-block-end: 15%;
+}
+.button1{
+    height: 10%;
+    width: 50%;
+    background-image: linear-gradient( #0a6fc3, #f96916);
+}
+footer>ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: rgb(40, 35, 35);
+    padding: 5%; 
+}
+footer>ul>li>h4{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer>ul>li>p{
+    color: gray;
+}
+
+.kontain{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    /* outline: none; */
+    padding: 50px;
+    margin-left: 100%;
+    background-image: linear-gradient( #DCF8EF, #FEE2F8);
+    border-radius: 20px;
+    
+
+    
+    
+
+}
+.container{
+    outline: none;
+    width: 5px;
+    
+}
+.container>h1{
+    margin-right: 47%;
+    color: rgb(243, 95, 95);
+    font-family: serif;
+    
+    
+
+}
+.opening{
+    width: 100%;
+    padding-top: 5px;
+    background-image: linear-gradient( #DCF8EF, #FEE2F8);
+    border-radius: 10px;
+    
+    
+}
+.opening>h1{
+     margin-block-end: 7%;
+     font-family: fantasy;
+     color: rgb(243, 95, 95);
+}
+
+section{
+    display: flex;
+    
+    text-align: center;
+    margin: 11%;
+}
+.opening>h5, span, p{
+    font-family: serif;
+}
+.lab>label{
+    font-family: serif;
+}
+.lab>input{
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.button2{
+    border-radius: 5px;
+    
+}
+@media(max-width: 1400px) {
+    .flexx1{
+        margin: 8%;
+    }
+}
+@media(max-width: 1300px) {
+    .flexx1{
+        margin: 7%;
+    }
+    section{
+        margin: 15%;
+    }
+}
+@media(max-width: 1200px) {
+    .flexx1{
+        margin: 4%;
+    }
+}
+@media(max-width: 1200px) {
+    .flexx1{
+        margin: 3%;
+    }
+}
+@media(max-width: 1000px) {
+    .flexx1{
+        margin: 1%;
+    }
+    footer>ul{
+        padding: 1%;
+    }
+}
+@media(max-width: 900px) {
+    .flexx1{
+        width: 80%;
+        display: block;
+        margin-left: 11%;
+        
+    }
+    .button1{
+        height: 45px;
+    }
+    section{
+        margin: 18%;
+    }
+    footer>ul{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
+@media(max-width: 800px) {
+    /* section{
+        display: block;
+    } */
+    .opening{
+        display: none;
+    }
+    section{
+        margin-left: 38%;
+    }
+}
+@media(max-width: 700px) {
+    .flexx1>img{
+        display: none;
+    }
+    .button1{
+        width: 65%;
+    }
+}
+@media(max-width: 500px) {
+    .button1{
+        width: 80%;
+    }
+    
+}
+@media(max-width: 450px) {
+    .button1{
+        width: 75%;
+        height: 30%;
+    }
+    
+    form .kontain, h1{
+        display: none;
+    }
+}
